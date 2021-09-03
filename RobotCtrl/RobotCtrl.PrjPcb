@@ -55,7 +55,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FJTZICRL
+DocumentUniqueId=SCMCBQXL
 
 [Document2]
 DocumentPath=Power.SchDoc
@@ -72,7 +72,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=VZYPLBHA
+DocumentUniqueId=SCMCBQXL
 
 [Document3]
 DocumentPath=MCU.SchDoc
@@ -89,7 +89,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CDRGNEIH
+DocumentUniqueId=SCMCBQXL
 
 [Document4]
 DocumentPath=Dev.SchDoc
@@ -106,7 +106,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=TEYOAHOP
+DocumentUniqueId=SCMCBQXL
 
 [Document5]
 DocumentPath=RobotCtrl.PcbDoc
@@ -123,7 +123,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=DSPEEHJO
+DocumentUniqueId=ONOCXWPQ
 
 [Configuration1]
 Name=Sources
