@@ -41,13 +41,13 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=RobotCtrl_V2_Core-board.SchDoc
+DocumentPath=RobotCtrl_Core.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -58,7 +58,7 @@ GenerateClassCluster=0
 DocumentUniqueId=SCMCBQXL
 
 [Document2]
-DocumentPath=RobotCtrl_V2_Core-board.PcbDoc
+DocumentPath=RobotCtrl_Core.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -73,10 +73,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BLKKLHBC
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for RobotCtrl_V2_Core-board\Design Rule Check - RobotCtrl_V2_Core-board.html
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
