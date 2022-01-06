@@ -1,0 +1,6 @@
+Record=DiagramHierarchy|SourceDocument=RobotCtrl_MultiBoard_Project.MbsDoc|Kind=Multi-board Schematic Module|Designator=M2|Source=RobotCtrl_Base_Func\RobotCtrl_Base_Func.PrjPcb
+Record=SubProject|SourceDocument=RobotCtrl_MultiBoard_Project.MbsDoc|ProjectPath=RobotCtrl_Base_Func\RobotCtrl_Base_Func.PrjPcb
+Record=DiagramHierarchy|SourceDocument=RobotCtrl_MultiBoard_Project.MbsDoc|Kind=Multi-board Schematic Module|Designator=M1|Source=RobotCtrl_Base_Power\RobotCtrl_Base_Power.PrjPcb
+Record=SubProject|SourceDocument=RobotCtrl_MultiBoard_Project.MbsDoc|ProjectPath=RobotCtrl_Base_Power\RobotCtrl_Base_Power.PrjPcb
+Record=DiagramHierarchy|SourceDocument=RobotCtrl_MultiBoard_Project.MbsDoc|Kind=Multi-board Schematic Module|Designator=M3|Source=RobotCtrl_Core\RobotCtrl_Core.PrjPcb
+Record=SubProject|SourceDocument=RobotCtrl_MultiBoard_Project.MbsDoc|ProjectPath=RobotCtrl_Core\RobotCtrl_Core.PrjPcb
