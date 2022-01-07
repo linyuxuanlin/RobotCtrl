@@ -92,7 +92,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=RobotCtrl_MultiBoard_Project.MbaDoc
+DocumentPath=RobotCtrl_Base_Power\RobotCtrl_Base_Power.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -106,7 +106,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=d74b268e-c91b-4dfe-be99-c49c9426c71f
+DocumentUniqueId=
 
 [Document5]
 DocumentPath=RobotCtrl_MultiBoard_Project.BomDoc
@@ -126,7 +126,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=RobotCtrl_Base_Power\RobotCtrl_Base_Power.PrjPcb
+DocumentPath=RobotCtrl_MultiBoard_Project.MbaDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,7 +140,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=7b59d1ce-6e7c-4d6d-b884-11508a501ba1
 
 [OutputGroup1]
 Name=Netlist Outputs
