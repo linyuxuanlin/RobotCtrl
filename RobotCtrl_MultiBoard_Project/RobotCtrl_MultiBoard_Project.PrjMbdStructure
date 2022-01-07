@@ -1,3 +1,4 @@
+Record=TopLevelDocument|FileName=RobotCtrl_MultiBoard_Project.MbaDoc
 Record=DiagramHierarchy|SourceDocument=RobotCtrl_MultiBoard_Project.MbsDoc|Kind=Multi-board Schematic Module|Designator=M2|Source=RobotCtrl_Base_Func\RobotCtrl_Base_Func.PrjPcb
 Record=SubProject|SourceDocument=RobotCtrl_MultiBoard_Project.MbsDoc|ProjectPath=RobotCtrl_Base_Func\RobotCtrl_Base_Func.PrjPcb
 Record=DiagramHierarchy|SourceDocument=RobotCtrl_MultiBoard_Project.MbsDoc|Kind=Multi-board Schematic Module|Designator=M1|Source=RobotCtrl_Base_Power\RobotCtrl_Base_Power.PrjPcb
