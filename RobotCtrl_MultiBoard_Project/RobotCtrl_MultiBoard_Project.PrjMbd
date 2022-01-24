@@ -75,7 +75,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=RobotCtrl_Base_Func\RobotCtrl_Base_Func.PrjPcb
+DocumentPath=RobotCtrl_Base_Func\RobotCtrl_Func.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -92,7 +92,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=RobotCtrl_Base_Power\RobotCtrl_Base_Power.PrjPcb
+DocumentPath=RobotCtrl_Base_Power\RobotCtrl_Power.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

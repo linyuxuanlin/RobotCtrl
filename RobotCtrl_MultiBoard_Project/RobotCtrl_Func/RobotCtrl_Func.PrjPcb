@@ -41,7 +41,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=RobotCtrl_Base_Power.SchDoc
+DocumentPath=RobotCtrl_Func.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -55,10 +55,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YHXISWRC
+DocumentUniqueId=HNSZLKYJ
 
 [Document2]
-DocumentPath=RobotCtrl_Base_Power.PcbDoc
+DocumentPath=RobotCtrl_Func.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -72,7 +72,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=QRCIXDSK
+DocumentUniqueId=PYBBHMXK
 
 [Configuration1]
 Name=Sources
