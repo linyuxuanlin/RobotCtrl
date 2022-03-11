@@ -1,0 +1,13 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [RobotCtrl_Func.PrjPcb]
+   Generated File[RobotCtrl_Func.GTP]
+   Generated File[RobotCtrl_Func.RUL]
+   Generated File[RobotCtrl_Func.EXTREP]
+   Generated File[RobotCtrl_Func.REP]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:06:05 On 2022/3/11
