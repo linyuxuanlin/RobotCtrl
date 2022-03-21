@@ -74,10 +74,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PYBBHMXK
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for RobotCtrl_Func\Design Rule Check - RobotCtrl_Func.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
