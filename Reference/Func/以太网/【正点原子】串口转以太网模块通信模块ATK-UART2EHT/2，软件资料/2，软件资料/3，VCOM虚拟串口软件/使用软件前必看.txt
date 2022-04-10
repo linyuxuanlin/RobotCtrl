@@ -1,0 +1,17 @@
+
+软件使用说明请参考：《ATK-VCOM用户手册.pdf》
+
+特别提醒：
+
+	1.使用上位机需要安装.net framework 4.0,如果你的电脑没有安装过.net framework 4.0，
+	（安装包在 资料包\2，配置软件下）请先安装：dotNetFx40_Full_x86_x64.exe,再运行软件。（
+	2.使用本软件前必须先安装“virtual-serial-port-control.msi”驱动
+
+
+
+		广州市星翼电子科技有限公司
+                电话：020-38271790
+                传真：020-36773971
+	       	购买：http://shop62103354.taobao.com
+                      http://shop62057469.taobao.com
+               	技术支持论坛：www.openedv.com
