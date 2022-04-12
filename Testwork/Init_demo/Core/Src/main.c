@@ -44,7 +44,11 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+unsigned char buff[4]={"abcd"};
+//uint8_t UserRxBufferFS[APP_RX_DATA_SIZE];//接收缓存
+//uint8_t UserTxBufferFS[APP_TX_DATA_SIZE];//发送缓存
+//static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len);//接收回调函数
+//uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);//发送函数
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
