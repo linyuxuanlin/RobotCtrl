@@ -259,8 +259,8 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
     if(huart->Instance==USART3)
     {
-        HAL_UART_Receive_IT(huart, &aRxBuffer, 1); // 接收并写入 aRxBuffer
-        HAL_UART_Transmit(huart, &aRxBuffer, 10, 0xFFFF); // 把接收到的 aRxBuffer 发回去
+        HAL_UART_Receive_IT(huart, &aRxBuffer, 1); // 接收并写�? aRxBuffer
+        HAL_UART_Transmit(huart, &aRxBuffer, 10, 0xFFFF); // 把接收到�? aRxBuffer 发回�?
     }
 }
 

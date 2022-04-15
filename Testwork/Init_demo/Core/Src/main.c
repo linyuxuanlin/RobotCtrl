@@ -47,10 +47,10 @@
 /* USER CODE BEGIN PV */
 unsigned char buff[4]={"abcd"};
 //uint8_t UserRxBufferFS[APP_RX_DATA_SIZE];//接收缓存
-//uint8_t UserTxBufferFS[APP_TX_DATA_SIZE];//发�?�缓�?
+//uint8_t UserTxBufferFS[APP_TX_DATA_SIZE];//发�?�缓�??
 //static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len);//接收回调函数
-//uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);//发�?�函�?
-uint8_t aTxBuffer[] = "USART TEST\r\n"; //用于发送的字符串
+//uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);//发�?�函�??
+uint8_t aTxBuffer[] = "USART TEST\r\n"; //用于发�?�的字符�?
 uint8_t aRxBuffer[20]; //用于接收的字符串
 /* USER CODE END PV */
 
@@ -96,9 +96,11 @@ int main(void)
   MX_I2C2_Init();
   MX_USB_DEVICE_Init();
   MX_USART3_UART_Init();
+  MX_UART5_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-  HAL_UART_Receive_IT(&huart3, (uint8_t *)aRxBuffer, 1); // 接收中断开启函数
-  HAL_UART_Transmit(&huart3, (uint8_t*) aTxBuffer, sizeof(aTxBuffer) - 1, 0xFFFF); // 发上一次自定义的 aTxBuffer
+  HAL_UART_Receive_IT(&huart3, (uint8_t *)aRxBuffer, 1); // 接收中断�?启函�?
+  HAL_UART_Transmit(&huart3, (uint8_t*) aTxBuffer, sizeof(aTxBuffer) - 1, 0xFFFF); // 发上�?次自定义�? aTxBuffer
   /* USER CODE END 2 */
 
   /* Infinite loop */
