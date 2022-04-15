@@ -41,7 +41,8 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
-
+extern uint8_t aTxBuffer;
+extern uint8_t aRxBuffer;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -56,6 +57,7 @@
 
 /* External variables --------------------------------------------------------*/
 extern PCD_HandleTypeDef hpcd_USB_OTG_FS;
+extern UART_HandleTypeDef huart3;
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -213,6 +215,20 @@ void EXTI1_IRQHandler(void)
 }
 
 /**
+  * @brief This function handles USART3 global interrupt.
+  */
+void USART3_IRQHandler(void)
+{
+  /* USER CODE BEGIN USART3_IRQn 0 */
+
+  /* USER CODE END USART3_IRQn 0 */
+  HAL_UART_IRQHandler(&huart3);
+  /* USER CODE BEGIN USART3_IRQn 1 */
+
+  /* USER CODE END USART3_IRQn 1 */
+}
+
+/**
   * @brief This function handles USB On The Go FS global interrupt.
   */
 void OTG_FS_IRQHandler(void)
@@ -236,6 +252,16 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
             HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
         }
 
+}
+
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+    if(huart->Instance==USART3)
+    {
+        HAL_UART_Receive_IT(huart, &aRxBuffer, 1); // 接收并写入 aRxBuffer
+        HAL_UART_Transmit(huart, &aRxBuffer, 10, 0xFFFF); // 把接收到的 aRxBuffer 发回去
+    }
 }
 
 /* USER CODE END 1 */
