@@ -208,7 +208,7 @@ void EXTI1_IRQHandler(void)
   /* USER CODE BEGIN EXTI1_IRQn 0 */
 
   /* USER CODE END EXTI1_IRQn 0 */
-  HAL_GPIO_EXTI_IRQHandler(Button_Pin);
+  HAL_GPIO_EXTI_IRQHandler(Button1_Pin);
   /* USER CODE BEGIN EXTI1_IRQn 1 */
 
   /* USER CODE END EXTI1_IRQn 1 */
@@ -247,9 +247,9 @@ void OTG_FS_IRQHandler(void)
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
 
-        if(HAL_GPIO_ReadPin(Button_GPIO_Port, Button_Pin) == 0)
+        if(HAL_GPIO_ReadPin(Button1_GPIO_Port, Button1_Pin) == 0)
         {
-            HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
+            HAL_GPIO_TogglePin(LED1_GPIO_Port,LED1_Pin);
         }
 
 }
@@ -259,8 +259,8 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
     if(huart->Instance==USART3)
     {
-        HAL_UART_Receive_IT(huart, &aRxBuffer, 1); // 接收并写�? aRxBuffer
-        HAL_UART_Transmit(huart, &aRxBuffer, 10, 0xFFFF); // 把接收到�? aRxBuffer 发回�?
+        HAL_UART_Receive_IT(huart, &aRxBuffer, 1); // 接收并写�??? aRxBuffer
+        HAL_UART_Transmit(huart, &aRxBuffer, 10, 0xFFFF); // 把接收到�??? aRxBuffer 发回�???
     }
 }
 

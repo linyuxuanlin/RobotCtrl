@@ -1,5 +1,5 @@
 ################################################################################
-# Automatically-generated file. Do not edit!
+# 自动生成的文件。不要编辑！
 # Toolchain: GNU Tools for STM32 (9-2020-q2-update)
 ################################################################################
 
@@ -53,34 +53,34 @@ OBJCOPY_BIN += \
 CAN_demo.bin \
 
 
-# All Target
+# 所有目标
 all: main-build
 
-# Main-build Target
+# 主构建目标
 main-build: CAN_demo.elf secondary-outputs
 
-# Tool invocations
+# 工具调用
 CAN_demo.elf: $(OBJS) $(USER_OBJS) C:\Users\Power\Projects\RobotCtrl\Testwork\CAN_demo\STM32F407ZETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	arm-none-eabi-gcc -o "CAN_demo.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Power\Projects\RobotCtrl\Testwork\CAN_demo\STM32F407ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-	@echo 'Finished building target: $@'
+	@echo '已结束构建目标： $@'
 	@echo ' '
 
 default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	arm-none-eabi-size  $(EXECUTABLES)
-	@echo 'Finished building: $@'
+	@echo '已结束构建： $@'
 	@echo ' '
 
 CAN_demo.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "CAN_demo.list"
-	@echo 'Finished building: $@'
+	@echo '已结束构建： $@'
 	@echo ' '
 
 CAN_demo.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "CAN_demo.bin"
-	@echo 'Finished building: $@'
+	@echo '已结束构建： $@'
 	@echo ' '
 
-# Other Targets
+# 其他目标
 clean:
 	-$(RM) CAN_demo.bin CAN_demo.elf CAN_demo.list default.size.stdout
 	-@echo ' '
